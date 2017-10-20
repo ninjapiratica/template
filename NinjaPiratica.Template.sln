@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NinjaPiratica.Core", "NinjaPiratica.Core\NinjaPiratica.Core.csproj", "{51395C5A-FA78-4952-BB3B-220F0B31A680}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NinjaPiratica.Infrastructure", "NinjaPiratica.Infrastructure\NinjaPiratica.Infrastructure.csproj", "{97602FB9-97C2-43F2-8297-03241582DA3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NinjaPiratica.Web", "NinjaPiratica.Web\NinjaPiratica.Web.csproj", "{27D80DE8-F55A-4684-AF09-D0B83D5469C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NinjaPiratica.API", "NinjaPiratica.API\NinjaPiratica.API.csproj", "{00DA9270-A89D-4664-B8B7-8D5C68E3493A}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NinjaPiratica.Database", "NinjaPiratica.Database\NinjaPiratica.Database.sqlproj", "{D4B1EE03-E2C4-4F33-AC9C-66D58BBAE973}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51395C5A-FA78-4952-BB3B-220F0B31A680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51395C5A-FA78-4952-BB3B-220F0B31A680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51395C5A-FA78-4952-BB3B-220F0B31A680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51395C5A-FA78-4952-BB3B-220F0B31A680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97602FB9-97C2-43F2-8297-03241582DA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97602FB9-97C2-43F2-8297-03241582DA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97602FB9-97C2-43F2-8297-03241582DA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97602FB9-97C2-43F2-8297-03241582DA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D80DE8-F55A-4684-AF09-D0B83D5469C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D80DE8-F55A-4684-AF09-D0B83D5469C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D80DE8-F55A-4684-AF09-D0B83D5469C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D80DE8-F55A-4684-AF09-D0B83D5469C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DA9270-A89D-4664-B8B7-8D5C68E3493A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DA9270-A89D-4664-B8B7-8D5C68E3493A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DA9270-A89D-4664-B8B7-8D5C68E3493A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DA9270-A89D-4664-B8B7-8D5C68E3493A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B1EE03-E2C4-4F33-AC9C-66D58BBAE973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B1EE03-E2C4-4F33-AC9C-66D58BBAE973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B1EE03-E2C4-4F33-AC9C-66D58BBAE973}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D4B1EE03-E2C4-4F33-AC9C-66D58BBAE973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B1EE03-E2C4-4F33-AC9C-66D58BBAE973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B1EE03-E2C4-4F33-AC9C-66D58BBAE973}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F708092E-DBA9-48A3-A817-112BB328ED51}
+	EndGlobalSection
+EndGlobal
